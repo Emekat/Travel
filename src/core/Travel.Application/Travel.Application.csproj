@@ -9,13 +9,15 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.5.1" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
       <PackageReference Include="MediatR" Version="9.0.0" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
-      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Common\Behaviours" />
+      <Folder Include="Common\Exceptions\" />
     </ItemGroup>
 
 </Project>
