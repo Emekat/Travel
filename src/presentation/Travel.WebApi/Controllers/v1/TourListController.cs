@@ -1,18 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Travel.Application.TourLists.CommandsAndHandlers;
 using Travel.Application.TourLists.QueriesAndHandlers.ExportTours;
 using Travel.Application.TourLists.QueriesAndHandlers.GetTours;
 
-namespace Travel.WebApi.Controllers
+namespace Travel.WebApi.Controllers.v1
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class TourListController : ApiController
     {
         [HttpGet]

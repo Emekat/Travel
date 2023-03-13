@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Shared", "src\infra\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.WebApi", "src\presentation\Travel.WebApi\Travel.WebApi.csproj", "{13C0D43F-7872-4CCE-84A6-D25EB5E985A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Identity", "src\infra\Travel.Identity\Travel.Identity.csproj", "{8AAF15E4-4472-4637-80D3-F216A4702220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{13C0D43F-7872-4CCE-84A6-D25EB5E985A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C0D43F-7872-4CCE-84A6-D25EB5E985A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C0D43F-7872-4CCE-84A6-D25EB5E985A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAF15E4-4472-4637-80D3-F216A4702220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAF15E4-4472-4637-80D3-F216A4702220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAF15E4-4472-4637-80D3-F216A4702220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAF15E4-4472-4637-80D3-F216A4702220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
