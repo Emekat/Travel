@@ -9,7 +9,7 @@ namespace Travel.Application.Mappings
     {
         public MappingProfile()
         {
-           
+            ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
         private void ApplyMappingsFromAssembly(Assembly assembly)
